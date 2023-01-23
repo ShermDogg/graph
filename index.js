@@ -9,6 +9,7 @@ const schema = require('./schema');
 const connectDB = require('./db');
 
 dotenv.config();
+
 const corsOptions = {
     origin: 'http://localhost:3000',
     credentials: true,
